@@ -1,0 +1,29 @@
+//Appointment information
+
+package CS161Q1;
+
+public class Appointment {
+
+private String Date;
+private String Time;
+
+
+public String getDate() {
+	return Date;
+}
+public void setDate(String date) {
+	Date = date;
+}
+public String getTime() {
+	return Time;
+}
+public void setTime(String time) {
+	Time = time;
+}
+//Compare client appointment with current appointments to 
+//find availability
+calendar()
+compare user date -> set dates
+compare user time -> set times
+
+}
